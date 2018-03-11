@@ -570,6 +570,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+
+#about .btn-know-more {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #757575;
+  color: #757575;
+}
+
+#about .btn-know-more:hover {
+  background: #F6D155;
+  border: 2px solid #F6D155;
+}
+
+
 /* Services Section
 --------------------------------*/
 #services {
@@ -583,7 +605,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 200px;
+  height: 70%;
   position: relative;
   background: #fafafa;
 }
