@@ -624,6 +624,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+@media (min-width: 992px) {
+    .col-md-offset-1-and-half {
+        margin-left: 12.499999995%; // col-md-offset-1 has 8.33333333
+        // so you multiply 8.33333333 * 1.5 = 12.499999995%
+    }
+
 
 
 /*--------------------------------------------------------------
