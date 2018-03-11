@@ -617,7 +617,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s;
   border-radius: 50%;
   display: inline-block;
-  border: 6px solid #fff;
+  border: 1px solid #fff;
+  height: 57px;
+  width: 57px;
 }
 
 #services .icon a {
@@ -626,6 +628,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px 2px 2px 2px solid #F6D155;
   padding: 16px;
   border-radius: 100%;
+  height: 57px;
+  width: 57px;
   transition: 0.3s;
 }
 
