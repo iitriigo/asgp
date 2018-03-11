@@ -623,7 +623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .icon a {
   display: inline-block;
   background: #F6D155;
-  border: 2px solid #F6D155;
+  border: 2px 2px 2px 2px solid #F6D155;
   padding: 16px;
   border-radius: 100%;
   transition: 0.3s;
@@ -664,7 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   background: #fff;
-  padding: 80px 0 40px 0;
+  padding: 80px 0 45px 0;
 }
 
 #contact #google-map {
@@ -676,8 +676,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #F6D155;
   border-radius: 100%;
   width: 2.5em;
-  height: 2.5em;
- 
+  height: 2.5em;  
+}
+
+
+.contact-info{
+  margin: 70px 20px 20px 100px;
 }
 
 .contact-icon:hover {
@@ -686,7 +690,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
  .text-contacts {
-  text-align: center;
+  text-align: left;
+  margin: 0 0 4px 0;
+  font-size: 1.16rem;
+
+}
+
+ .text-contacts-last {
+  text-align: left;
+  margin: 0 0 15px 0;
+  font-size: 1.16rem;
 }
 
 /*--------------------------------------------------------------
